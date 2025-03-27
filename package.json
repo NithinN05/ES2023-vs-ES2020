@@ -1,0 +1,16 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "es2020": "tsc --target es2020 --noEmitOnError src/index.ts --outDir dist && node dist/index.js",
+    "es2023": "tsc --target es2023 --noEmitOnError src/index.ts --outDir dist && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "typescript": "^5.8.2"
+  }
+}
